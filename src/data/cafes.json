@@ -1,0 +1,74 @@
+[
+  {
+    "id": "5763cd4d9d2a4f259b53c901",
+    "gamme": "intenso",
+    "nom": "kazaar",
+    "intensite": 12,
+    "prix": 0.39,
+    "photo": "kazaar.jpg",
+    "nbCapsules": 0
+  },
+  {
+    "id": "5763cd4d51fdb6588742f99e",
+    "gamme": "intenso",
+    "nom": "arpeggio",
+    "intensite": 9,
+    "prix": 0.35,
+    "photo": "arpeggio.jpg",
+    "nbCapsules": 0
+  },
+  {
+    "id": "5763cd4dba6362a3f92c954e",
+    "gamme": "pureorigin",
+    "nom": "indriya from india",
+    "intensite": 10,
+    "prix": 0.42,
+    "photo": "indriyafromindia.jpg",
+    "nbCapsules": 0
+  },
+  {
+    "id": "5763cd4d3b57c672861bfa1f",
+    "gamme": "decaffeinato",
+    "nom": "vivalto lungo decaffeinato",
+    "intensite": 4,
+    "prix": 0.42,
+    "photo": "vivaltolungodecaffeinato.jpg",
+    "nbCapsules": 0
+  },
+  {
+    "id": "5763cd4d5fc36e4f842ca5a9",
+    "gamme": "decaffeinato",
+    "nom": "ristretto decaffeinato",
+    "intensite": 10,
+    "prix": 0.39,
+    "photo": "ristrettodecaffeinato.jpg",
+    "nbCapsules": 0
+  },
+  {
+    "id": "5763cd4d979b62a209809160",
+    "gamme": "decaffeinato",
+    "nom": "volluto decaffeinato",
+    "intensite": 4,
+    "prix": 0.39,
+    "photo": "vollutodecaffeinato.jpg",
+    "nbCapsules": 0
+  },
+  {
+    "id": "5763cd4d15e6c2c28b70f2e8",
+    "gamme": "lungo",
+    "nom": "linizio lungo",
+    "intensite": 4,
+    "prix": 0.39,
+    "photo": "liniziolungo.jpg",
+    "nbCapsules": 0
+  },
+  {
+    "id": "5763cd4d5d6ad8dfc6c34883",
+    "gamme": "lungo",
+    "nom": "fortissio lungo",
+    "intensite": 8,
+    "prix": 0.39,
+    "photo": "fortissiolungo.jpg",
+    "nbCapsules": 0
+  }
+]

@@ -1,0 +1,228 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-height:100%;
+  min-width:100%;
+}
+
+html, body, #root{
+  margin: 0;
+  height:100%;
+  width:100%;
+}
+
+p {
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.title {
+  color:rgb(100,100,100);
+  font-weight:bold;
+  position:relative;
+  top:0;
+  left:0;
+}
+
+.app {
+  position:relative;
+  width:100%;
+  height:100%;
+}
+.entete {
+  position:relative;
+  width:100%;
+  height:7%;
+  background-image: linear-gradient(rgb(157,157,157),rgb(107, 107, 107),rgb(207,207,207));
+  line-height:40px;
+  text-align:center;
+  color:white;
+  font-family:Calibri;
+  font-size:22px;
+  font-weight:bold;
+}
+
+.leftMenu {
+  float:left;
+  height:100%;
+  width:15%;
+  text-align:center;
+  border-right-style:solid;
+  border-right-width:2px;
+  border-right-color: rgb(207, 207, 207);
+  background-image: linear-gradient(rgb(207, 207, 207),rgb(250, 250, 250));
+}
+
+.leftMenu .title {
+  margin-top:30px;
+  height:40px;
+  width:100%;
+  color:white;
+  font-weight:bold;
+
+}
+
+.corps {
+  float:left;
+  padding-left:60px;
+  padding-right:30px;
+  width:85%;
+  margin:auto;
+}
+
+.corps .title {
+  font-size:30px;
+  height:70px;
+  padding:20px 20px 20px 20px;
+  width:100%;
+  background-color:white;
+}
+
+.cafesContainer{
+  position:relative;
+  top:0;
+  left:0;
+  margin:auto;
+}
+
+.cafe {
+  border-radius:30% 10px 15% 10px;
+  float: left;
+  height: 350px;
+  width: 250px;
+  background-color:rgb(255,255,255);
+  margin:10px 10px 50px 30px;
+  display:inline-block;
+  box-shadow: inset 0px 0px 10px 2px #c0c0c0;
+  transition: box-shadow .25s ease-out, top .25s ease-out;
+}
+
+.cafe:hover {
+  box-shadow: inset 1px -1px 25px 2px #c0c0c0;
+}
+
+.gammeContainer {
+  float:right;
+  width:40px;
+  height:40px;
+  overflow:hidden;
+  border-radius:0 10px 0 0;
+}
+
+.infoGamme {
+  float:right;
+  margin-top:-15px;
+  font-size:12px;
+  font-weight:bold;
+  display:none;
+}
+
+.gameContainer:hover .infoGamme {
+  display:inline-block;
+}
+
+.gamme {
+  position:relative;
+  margin-top:-40px;
+  margin-right:-40px;
+  width:80px;
+  height:80px;
+  border-radius:50%;
+}
+
+.nomCafe {
+  position:relative;
+  top:40px;
+  padding-left:25px;
+  width:230px;
+  margin:auto;
+  height:40px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.photoCafe {
+  position:relative;
+  top:70px;
+  left:0;
+  margin:auto;
+  width:150px;
+  height:150px;
+}
+.photoCafe img {
+  width:150px;
+  height:150px;
+}
+
+.compteurCafe {
+  position:relative;
+  top:100px;
+  width:105px;
+  height:40px;
+  margin:auto;
+}
+
+.compteurCafe button {
+  width:20px;
+}
+
+.compteurCafe input {
+  margin-left:5px;
+  width:30px;
+  text-align:center;
+}
+
+.compteurCafe label {
+  font-size:10px;
+  margin-right:5px;
+}
+
+.compteurCafe input::placeholder {
+  color:rgb(200,200,200);
+  font-size:14px;
+  font-style:italic;
+}
+
+.prix {
+  position:absolute;
+  bottom:0;
+  width:100px;
+  margin:auto;
+  font-size:11px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.intensoBg {
+  background-color: rgb(102, 0, 185);
+}
+.intensoColor {
+  color: rgb(102, 0, 185);
+}
+
+.pureoriginBg {
+  background-color: rgb(255, 224, 177);
+}
+.pureoriginColor {
+  color: rgb(255, 224, 177);
+}
+
+.decaffeinatoBg {
+  background-color: rgb(212, 208, 210);
+}
+.decaffeinatoColor {
+  color: rgb(212, 208, 210);
+}
+
+.lungoBg {
+  background-color: rgb(255, 111, 88);
+}
+.lungoColor {
+  color: rgb(255, 111, 88);
+}
